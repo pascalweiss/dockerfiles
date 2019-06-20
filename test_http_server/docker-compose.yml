@@ -1,0 +1,7 @@
+version: '2'
+services:
+  http-server:
+      build: .
+      container_name: http-server
+      ports:
+      - "80:80"
