@@ -1,5 +1,13 @@
-Creates a docker container to quickly start up an ubuntu shell. Run:
+# Ubuntu Shell
 
+# build the image
 ```
-docker-compose run ubuntu-shell
+docker build -t ubuntu-shell .
 ```
+
+# run the container
+```
+docker run -it ubuntu-shell
+```
+
+
