@@ -2,7 +2,7 @@
 
 # build the image
 ```
-docker build -t ubuntu-shell .
+docker build --build-arg USER_NAME=user --build-arg USER_PASSWORD=<your-password> -t ubuntu-shell .
 ```
 
 # run the container
