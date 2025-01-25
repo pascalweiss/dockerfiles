@@ -1,5 +1,0 @@
-version: '2'
-services:
-  ubuntu-shell:
-      build: .
-      container_name: ubuntu_shell
