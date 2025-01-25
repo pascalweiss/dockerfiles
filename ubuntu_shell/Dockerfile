@@ -15,11 +15,10 @@ RUN echo $CONTAINER_IMAGE_VER
 RUN apt-get update && apt-get install -y \
     tzdata \
     sudo \
+    ansible \
     curl \
     git-core \
-    gnupg \
     locales \
-    zsh \
     wget \
     vim \
     tmux \
