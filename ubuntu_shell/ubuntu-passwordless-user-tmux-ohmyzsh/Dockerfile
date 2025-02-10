@@ -34,4 +34,5 @@ RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master
 
 WORKDIR /home/$USER_NAME/
 
-CMD ["tmux"]
+# long running command to keeping it alive for in k8s cluster
+CMD ["/bin/zsh", "-c", "while true; do sleep 1000; done"]
