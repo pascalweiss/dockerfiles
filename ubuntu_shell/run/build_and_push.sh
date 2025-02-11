@@ -2,7 +2,7 @@
 set -e
 
 BASE_DIR=$(dirname "${0}")/..
-DOCKER_IMAGE="ubuntu-shell"
+DOCKER_IMAGE="ubuntu-shell-docker"
 DOCKER_TAG="latest"
 USER_NAME="user"
 
